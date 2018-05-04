@@ -1,0 +1,15 @@
+Package: TEST2slides
+Version: 0.0.0.9000
+Title: This is a total test
+Description: just testing, pickle.
+Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+ByteCompile: true
+Suggests: 
+    xaringan
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.0.1
+URL: https://github.com/libjohn/TEST2slides
+BugReports: https://github.com/libjohn/TEST2slides/issues
