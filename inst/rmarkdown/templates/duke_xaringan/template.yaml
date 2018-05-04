@@ -1,0 +1,4 @@
+name: Slides template for Duke 
+description: >
+ Augments Xaringan slides package with Duke University palette.
+create_dir: true

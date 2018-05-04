@@ -1,0 +1,244 @@
+---
+title: "Untitled"
+subtitle: "Optionally, delete this whole line"
+author: "Optionally, Your Name"
+date: "Optionally, `r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+  lib_dir: libs
+css: 
+  - default
+  - default-fonts
+  - duke-blue.css
+  - cc-fonts.css
+  - figures.css
+nature:
+  highlightStyle: github
+  highlightLines: true
+---
+exclude: true
+class: center, middle
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Duke_University_logo.svg/640px-Duke_University_logo.svg.png)
+<!-- https://commons.wikimedia.org/wiki/File:Duke_University_logo.svg -->
+<!-- background-image: url(https://blogs.library.duke.edu/magazine/files/2010/12/duke-university-libraries-logo.jpg) -->
+<!-- background-image: url(http://library.duke.edu/data/sites/default/files/datagis/images/data_gis_logo.png) -->
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+<!-- some text goes here  -->
+  
+???
+
+Presenter Notes go here
+use 'p' to toggle the presenter mode or '?' or 'h' to toggle the help / key-shortcut options
+
+Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Duke_University_logo.svg)
+
+---
+## This Template
+
+Combines
+
+- Xaringan slide library ([github](https://github.com/yihui/xaringan) | [vingette](https://slides.yihui.name/xaringan/))
+
+- [Duke University Color Palette](https://styleguide.duke.edu/color-palette/)
+
+## Clone Me
+
+at
+
+- https://github.com/libjohn/slide-template-dukeu
+
+---
+## How to use this Template
+
+- Review the [install/get-started instructions](https://slides.yihui.name/xaringan/#8)
+
+- Yihui [Tips and Techniques](https://slides.yihui.name/xaringan/#22)
+                                                    
+1. Create a new R Markdown document from the menu `File -> New File -> R Markdown -> From Template -> Ninja Presentation`
+
+1.  Paste this [Rmd template](https://raw.githubusercontent.com/libjohn/slide-template-dukeu/master/duke_slide_template.Rmd) over the Ninja Template
+
+    - *Yes I should make this an official template* (this is it, for now.)
+
+1. Review the [Template Slides](http://libjohn.github.io/slide-template/duke_slide_template.html) and Style Sheets ([Xaringan-example.css](https://github.com/libjohn/slide-template-dukeu/blob/master/libs/remark-css/example.css) | [duke.css](https://github.com/libjohn/slide-template-dukeu/blob/master/duke_color_pallettes_slides.css))  to learn more about how CSS will affect your composition
+
+---
+## Two Column
+
+.pull-left[
+- You can generate a left column 
+
+- by wrapping the left-hand text in \.pull-left\[ foo \]
+
+- TAGS 
+
+- Splunk
+]
+
+.pull-right[
+- You can generate a right column 
+
+- by wrapping the right-hand text in \.pull-right\[ foo \]
+
+- foo
+
+- foo
+]
+
+---
+
+## Next Steps...
+
+### Text Analysis
+
+- Voyant - Text Analysis
+- Gephi - Network Graph Analysis
+- Lib Guides
+
+- http://guides.library.duke.edu/text_analysis
+- http://guides.library.duke.edu/digital_humanities 
+
+- R and its many packages
+
+---
+class: inverse
+
+## inverse
+
+### h3
+
+**Accomplish** this with '`class: inverse`' as the first line below '`---`'
+
+Lorem Ipsum
+
+"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+
+---
+class: softblue
+
+## softblue
+
+**Accomplish** this with '`class: softblue`' as the first line below '`---`'
+
+Lorem Ipsum
+
+"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+
+- one
+
+- [Google](http://google.com)
+
+- three
+
+---
+class: orange
+
+## orange
+
+**Accomplish** this with '`class: orange`' as the first line below '`---`'
+
+Lorem Ipsum
+
+"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+
+- one
+
+- [Google](http://google.com)
+
+- three
+
+---
+  class: green
+
+## green
+
+- `class: green`
+
+"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+
+- one
+
+- [Green website inspirations](https://webdesignledger.com/50-green-web-designs-to-inspire-you/)
+
+- three
+
+
+---
+  class: h2orange
+background-image: url(http://www.publicdomainpictures.net/pictures/170000/velka/hand-holding-old-keys-1462981136Ul1.jpg)
+
+## CUSTOM: Two Column
+
+**Accomplish** this with '`class: hs2orange`' as the first line below '`---`'
+
+Lorem Ipsum
+
+"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+
+
+.left-column[
+- You can generate a left column 
+- by wrapping the left-hand text in \.left-column\[ foo \]
+- You will want to custom edit the duke.css to suit your needs
+]
+
+.right-column[
+- You can generate a right column
+
+- by wrapping the right-hand text in \.right-column\[ foo \]
+
+- You will want to custom edit the duke.css to suit your needs
+]
+
+<!-- Image credit:  http://www.publicdomainpictures.net/view-image.php?image=167489  -->
+
+---
+## Thank You For Attending
+
+.pull-left[
+### I am ...
+
+- John Little
+- https://johnlittle.info
+- http://github.com/libjohn
+
+#### Schedule Me
+
+- [http:&#47;&#47;v.gd&#47;littleconsult](http://duke.libcal.com/appointment/2695)
+]
+
+.pull-right[
+### We are...
+- Data & Visualization Services
+- http://library.duke.edu/data
+- The /Edge, Bostock (1st Floor)
+
+#### Walk-in Hours
+- [Schedule](http://library.duke.edu/data/about/schedule)
+
+#### Our Workshops
+- [Current Workshops](http://library.duke.edu/data/news)
+- [Past Workshops](http://library.duke.edu/data/news/past-workshops)
+
+#### Contact Us
+- askData@Duke.edu
+]
+
+---
+class: center, middle
+## Shareable 
+
+Data, presentation, and handouts 
+
+<span class="cc">
+<!-- Key: a: SA, b: BY, c: CC Circle, d: ND, n: NC, m: Sampling, s: Share, r: Remix, C: CC Full Logo -->
+C bn
+</span>
+  
+  
+[CC BY-NC license](https://creativecommons.org/licenses/by-nc/4.0/)
+
