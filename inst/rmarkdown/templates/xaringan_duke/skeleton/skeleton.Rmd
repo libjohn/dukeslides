@@ -152,7 +152,7 @@ Lorem Ipsum
 - three
 
 ---
-  class: green
+class: green
 
 ## green
 
