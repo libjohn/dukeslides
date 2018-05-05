@@ -168,7 +168,7 @@ Lorem Ipsum
 
 
 ---
-  class: h2orange
+class: h2orange
 background-image: url(http://www.publicdomainpictures.net/pictures/170000/velka/hand-holding-old-keys-1462981136Ul1.jpg)
 
 ## CUSTOM: Two Column
