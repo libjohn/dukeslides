@@ -1,8 +1,8 @@
-Package: TEST2slides
+Package: DST4X
 Version: 0.0.0.9000
-Title: This is a total test
-Description: just testing, pickle.
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
+Title: Rmarkdown Slides Template for Duke flavored Xaringan
+Description: How2 File_NewFile_RMarkdown_FromTemplate foo
+Authors@R: person("John", "Little", email = "John.Little@Duke.edu", role = c("aut", "cre"))
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
