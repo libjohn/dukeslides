@@ -1,31 +1,374 @@
 ---
-title: "Untitled"
-subtitle: "Optionally, delete this whole line"
-author: "Optionally, Your Name"
-date: "Optionally, `r Sys.Date()`"
+title: "Merge the Duke Pallete with the other colors"
+subtitle: "with xaringan"
+author: "John Little"
+date: "`r Sys.Date()`"
 output:
   xaringan::moon_reader:
-  lib_dir: libs
-css: 
-  - default
-  - default-fonts
-  - duke-blue.css
-  - cc-fonts.css
-  - figures.css
-nature:
-  highlightStyle: github
-  highlightLines: true
+    lib_dir: libs
+    css: 
+      - default
+      - default-fonts
+      - libs/hygge-duke.css
+      - libs/duke-blue.css
+      - libs/cc-fonts.css
+      - figures.css
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
 ---
-exclude: true
-class: center, middle
-background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Duke_University_logo.svg/640px-Duke_University_logo.svg.png)
-<!-- https://commons.wikimedia.org/wiki/File:Duke_University_logo.svg -->
-<!-- background-image: url(https://blogs.library.duke.edu/magazine/files/2010/12/duke-university-libraries-logo.jpg) -->
-<!-- background-image: url(http://library.duke.edu/data/sites/default/files/datagis/images/data_gis_logo.png) -->
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
 ```
+
+class: center, middle
+
+# xaringan
+
+### /ʃæ.'riŋ.ɡæn/
+
+---
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Duke_University_logo.svg/640px-Duke_University_logo.svg.png)
+
+???
+
+Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Duke_University_logo.svg)
+
+---
+class: inverse, center, middle
+
+# Get Started
+
+---
+
+# Hello World
+
+Install the **xaringan** package from [Github](https://github.com/yihui/xaringan):
+
+```{r eval=FALSE, tidy=FALSE}
+devtools::install_github("yihui/xaringan")
+```
+
+--
+
+You are recommended to use the [RStudio IDE](https://www.rstudio.com/products/rstudio/), but you do not have to.
+
+- Create a new R Markdown document from the menu `File -> New File -> R Markdown -> From Template -> Ninja Presentation`;<sup>1</sup>
+
+--
+
+- Click the `Knit` button to compile it;
+
+--
+
+- or use the [RStudio Addin](https://rstudio.github.io/rstudioaddins/)<sup>2</sup> "Infinite Moon Reader" to live preview the slides (every time you update and save the Rmd document, the slides will be automatically reloaded in RStudio Viewer.
+
+.footnote[
+[1] foonote 1
+
+[2] and another footnote
+]
+
+---
+background-image: url(https://c2.staticflickr.com/6/5729/30943501632_eb0b200eed_b.jpg)
+class: center, top, inverse
+
+
+background-position: 50% 50%
+
+# You only live once!
+
+---
+## Duke CSS with Xaringan
+
+Combines
+
+- Xaringan slide library ([github](https://github.com/yihui/xaringan) | [vingette](https://slides.yihui.name/xaringan/))
+
+- [Duke University Color Palette](https://styleguide.duke.edu/color-palette/)
+
+CSS files include:
+
+- libs/duke-blue.css
+- libs/hygge-duke.css
+- libs/cc-fonts.css
+- figures.css
+
+---
+## Two Column
+
+.pull-left[
+- You can generate a left column 
+
+- by wrapping the left-hand text in `.pull-left[` foo `]`
+
+- TAGS 
+
+- Splunk
+]
+
+.pull-right[
+- You can generate a right column 
+
+- by wrapping the right-hand text in `.pull-right[` foo `]`
+
+- foo
+
+- foo
+]
+
+---
+class: inverse
+
+## inverse
+
+### h3
+
+``` r
+---
+class: inverse
+```
+
+Lorem Ipsum
+
+"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+
+---
+class: dk_softblue
+
+## dk_softblue
+
+``` r
+---
+class: dk_softblue
+```
+
+Lorem Ipsum
+
+"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+
+- one
+
+- [Google](http://google.com)
+
+- three
+
+---
+class: dk_orange
+
+## dk_orange
+
+``` r
+---
+class: dk_orange
+```
+
+Lorem Ipsum
+
+"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+
+- one
+
+- [Google](http://google.com)
+
+- three
+
+---
+class: dk_green
+
+## dk_green
+
+``` r
+---
+class: dk_green
+```
+
+"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+
+- one
+
+- [Green website inspirations](https://webdesignledger.com/50-green-web-designs-to-inspire-you/)
+
+- three
+
+---
+background-image: url(http://www.publicdomainpictures.net/pictures/170000/velka/hand-holding-old-keys-1462981136Ul1.jpg)
+background-size: contain
+
+## HYGGE-duke Two Column
+
+.content-box-grey[ qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... ]
+
+
+.pull-left[
+&nbsp;
+
+&nbsp;
+
+&nbsp; 
+
+``` r
+.pull-left[ 
+   nabisco crackers 
+   snackum attackum ...
+   ]
+```
+]
+
+&nbsp; 
+
+.pull-right[.full-width[.rotate-left[.content-box-blue[
+
+- Wrap the right-hand text in \.pull-right\[ \.content-box-blue\]
+
+&nbsp; 
+
+&nbsp; 
+
+&nbsp;
+
+
+``` r
+.pull-right[.full-width[
+  .rotate-left[
+    .content-box-blue[snackum 
+      nabiskum]
+]]]
+```
+
+]]]]
+
+<!-- Image credit:  http://www.publicdomainpictures.net/view-image.php?image=167489  -->
+
+???
+
+Image credit:  http://www.publicdomainpictures.net/view-image.php?image=167489
+
+---
+
+# Modifying text
+
+.pull-left[
+
+## Font sizes
+
+This is normal size ( $\LaTeX$-friendly terms)
+
+.Large[Large]
+
+.large[large]
+
+.small[small]
+
+.footnotesize[footnotesize]
+
+.scriptsize[scriptsize]
+
+.tiny[tiny]
+
+]
+
+.pull-right[
+
+## Text color
+
+.black[black]
+
+.red[red]
+
+.blue[blue]
+
+.green[green], 
+.yellow[yellow], 
+.orange[orange], 
+.purple[purple], 
+.gray[gray or grey]
+
+You can also use `.bold[]` or `.bolder[]` to emphasize text 
+
+This is .bold[bold], this is .bolder[bolder] and this is regular markdown **double-star bold** (visible differences depend on the font)
+
+
+
+]
+
+---
+
+## Coloured content boxes
+
+Use `.content-box-blue` (or gray/grey, army, green, purple, red, or yellow) to produce a box with coloured background. Size depends on content.
+
+`.content-box-blue[I feel blue]` yields
+
+.content-box-blue[I feel blue]
+
+Wrap in `.full-width` to expand the width
+
+.full-width[.content-box-red[I feel even more blue]]
+
+If you have content in columns then you get
+
+.pull-left[.full-width[.content-box-yellow[**WARNING** Look out for minons or bananas]]]
+.pull-right[.full-width[.content-box-yellow[The box to the left was created using `.pull-left[.full-width[.content-box-yellow[]]]`]]]
+
+
+---
+
+## Coloured content boxes
+
+Use `.content-box-blue` (or gray/grey, army, green, purple, red, or yellow) to produce a box with coloured background. Size depends on content.
+
+.content-box-blue[I feel blue]
+.content-box-grey[grey]
+.content-box-army[army]
+.content-box-green[green]
+.content-box-red[red]
+.content-box-yellow[yellow]
+
+---
+
+# CSS
+
+the default CSS file [here](https://github.com/yihui/xaringan/blob/master/inst/rmarkdown/templates/xaringan/resources/default.css). 
+
+
+Set the `css` option in the YAML metadata:
+
+```yaml
+output:
+  xaringan::moon_reader:
+    css: ["default", "ubuntu-mono.css"]
+```
+
+---
+
+# CSS User-Contributed Themes
+
+User-contributed themes. A theme typically consists of two CSS files `foo.css` and `foo-fonts.css`, where `foo` is the theme name. Below are some existing themes:
+
+```{r}
+names(xaringan:::list_css())
+```
+
+To use a theme, you can specify the `css` option as an array of CSS filenames (without the `.css` extensions), e.g.,
+
+```yaml
+output:
+  xaringan::moon_reader:
+    css: [default, metropolis, metropolis-fonts]
+```
+
+If you want to contribute a theme to **xaringan**, please read [this blog post](https://yihui.name/en/2017/10/xaringan-themes).
+
+---
+exclude: false
+class: center, middle
+background-image: url(https://blogs.library.duke.edu/magazine/files/2010/12/duke-university-libraries-logo.jpg)
+<!-- https://commons.wikimedia.org/wiki/File:Duke_University_logo.svg -->
+<!-- https://blogs.library.duke.edu/magazine/files/2010/12/duke-university-libraries-logo.jpg -->
+<!-- http://library.duke.edu/data/sites/default/files/datagis/images/data_gis_logo.png -->
 
 <!-- some text goes here  -->
   
@@ -37,164 +380,252 @@ use 'p' to toggle the presenter mode or '?' or 'h' to toggle the help / key-shor
 Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Duke_University_logo.svg)
 
 ---
-## This Template
 
-Combines
+# Some more xaringan documentation
 
-- Xaringan slide library ([github](https://github.com/yihui/xaringan) | [vingette](https://slides.yihui.name/xaringan/))
+1. [remark.js documentation](https://remarkjs.com) library;
 
-- [Duke University Color Palette](https://styleguide.duke.edu/color-palette/)
+1. [Xaringan documentation](https://slides.yihui.name/xaringan/)
 
-## Clone Me
 
-at
-
-- https://github.com/libjohn/slide-template-dukeu
 
 ---
-## How to use this Template
+class: inverse, middle, center
 
-- Review the [install/get-started instructions](https://slides.yihui.name/xaringan/#8)
-
-- Yihui [Tips and Techniques](https://slides.yihui.name/xaringan/#22)
-                                                    
-1. Create a new R Markdown document from the menu `File -> New File -> R Markdown -> From Template -> Ninja Presentation`
-
-1.  Paste this [Rmd template](https://raw.githubusercontent.com/libjohn/slide-template-dukeu/master/duke_slide_template.Rmd) over the Ninja Template
-
-    - *Yes I should make this an official template* (this is it, for now.)
-
-1. Review the [Template Slides](http://libjohn.github.io/slide-template/duke_slide_template.html) and Style Sheets ([Xaringan-example.css](https://github.com/libjohn/slide-template-dukeu/blob/master/libs/remark-css/example.css) | [duke.css](https://github.com/libjohn/slide-template-dukeu/blob/master/duke_color_pallettes_slides.css))  to learn more about how CSS will affect your composition
+# Using xaringan
 
 ---
-## Two Column
+
+# xaringan
+
+Provides an R Markdown output format `xaringan::moon_reader` as a wrapper for remark.js, and you can use it in the YAML metadata, e.g.
+
+```yaml
+---
+title: "A Cool Presentation"
+output:
+  xaringan::moon_reader
+    yolo: true
+    nature:
+      autoplay: 30000
+---
+```
+
+See the help page `?xaringan::moon_reader` for all possible options that you can use.
+
+---
+
+# using **xaringan** 
+
+.pull-right[
+1. Start with an R Markdown document;
+
+1. R Markdown (can embed R/other code chunks);
+
+1. Provide an option `autoplay`;
+
+1. MathJax just works;<sup>*</sup>
+
+1. Highlight code with `{{}}`;
+
+1. The RStudio addin "Infinite Moon Reader" automatically refreshes slides on changes;
+]
+
+.footnote[[*] Not really. See next page.]
+
+---
+
+# Math Expressions
+
+You can write LaTeX math expressions inside a pair of dollar signs, e.g. &#36;\alpha+\beta$ renders $\alpha+\beta$. You can use the display style with double dollar signs:
+
+```
+$$\bar{X}=\frac{1}{n}\sum_{i=1}^nX_i$$
+```
+
+$$\bar{X}=\frac{1}{n}\sum_{i=1}^nX_i$$
+
+Limitations:
+
+1. The source code of a LaTeX math expression must be in one line, unless it is inside a pair of double dollar signs, in which case the starting `$$` must appear in the very beginning of a line, followed immediately by a non-space character, and the ending `$$` must be at the end of a line, led by a non-space character;
+
+1. There should not be spaces after the opening `$` or before the closing `$`.
+
+1. Math does not work on the title slide (see [#61](https://github.com/yihui/xaringan/issues/61) for a workaround).
+
+---
+
+# R Plots
+
+```{r include=FALSE}
+fit = lm(dist ~ 1 + speed, data = cars)
+coef(summary(fit))
+dojutsu = c('地爆天星', '天照', '加具土命', '神威', '須佐能乎', '無限月読')
+grep('天', dojutsu, value = TRUE)
+```
+
+
+```{r cars, fig.height=4, dev='svg'}
+# visualizations are cool, duh.
+
+par(mar = c(4, 4, 1, .1))
+plot(cars, pch = 19, col = 'darkgray', las = 1)
+abline(fit, lwd = 2)
+```
+
+
+---
+
+# Tables
+
+If you want to generate a table, make sure it is in the HTML format (instead of Markdown or other formats), e.g.,
+
+```{r}
+knitr::kable(head(iris), format = 'html')
+```
+
+---
+# Kable HTML Table info
+
+[documentation](https://cran.r-project.org/web/packages/kableExtra/vignettes/awesome_table_in_html.html) on HTML tables via `library(kableExtra)` 
+
+Another example on next page...
+
+---
+
+# kable table
+```{r include=FALSE}
+library(magrittr)
+library(kableExtra)
+```
+
+
+```{r include=FALSE}
+text_tbl <- data.frame(
+  Items = c("Item 1", "Item 2", "Item 3"),
+  Features = c(
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vehicula tempor ex. Morbi malesuada sagittis turpis, at venenatis nisl luctus a. ",
+    "In eu urna at magna luctus rhoncus quis in nisl. Fusce in velit varius, posuere risus et, cursus augue. Duis eleifend aliquam ante, a aliquet ex tincidunt in. ", 
+    "Vivamus venenatis egestas eros ut tempus. Vivamus id est nisi. Aliquam molestie erat et sollicitudin venenatis. In ac lacus at velit scelerisque mattis. "
+  )
+)
+```
+```{r echo=FALSE}
+kable(text_tbl, "html") %>%
+  kable_styling(full_width = F, bootstrap_options = c("striped", "hover")) %>%
+  column_spec(1, bold = T, border_right = T) %>%
+  column_spec(2, width = "30em", background = "yellow") %>% 
+  row_spec(3, bold = T, color = "white", background = "#D7261E") %>% 
+  column_spec(1, background = "white", color = "black")
+```
+
+---
+
+# HTML Widgets
+
+
+```{r out.width='100%', fig.height=6, eval=require('leaflet')}
+library(leaflet)
+leaflet() %>% addTiles() %>% setView(-93.65, 42.0285, zoom = 17)
+```
+
+---
+
+```{r eval=require('DT'), tidy=FALSE}
+DT::datatable(
+  head(iris, 10),
+  fillContainer = FALSE, options = list(pageLength = 8)
+)
+```
+
+---
+
+# Incremental, include-child (content), and Template
+
+See [incremental slides documentation presentation](https://slides.yihui.name/xaringan/incremental.html) for examples.
+
+---
+
+# Highlight Code
+
+- The option `highlightLines: true` of `nature` will highlight code lines that start with `*`, or are wrapped in `{{ }}`, or have trailing comments `#<<`;
+
+```yaml
+output:
+  xaringan::moon_reader:
+    nature:
+      highlightLines: true
+```
+
+
+See examples on the next page.
+
+---
+
+# Highlight Code with * or `{{}}`
+
 
 .pull-left[
-- You can generate a left column 
+An example using a leading `*`:
 
-- by wrapping the left-hand text in \.pull-left\[ foo \]
+```r
+if (TRUE) {
+** message("Very important!")
+}
+```
+Output:
+```r
+if (TRUE) {
+* message("Very important!")
+}
+```
 
-- TAGS 
-
-- Splunk
+This is invalid R code, so it is a plain fenced code block that is not executed.
 ]
 
 .pull-right[
-- You can generate a right column 
+An example using `{{}}`:
 
-- by wrapping the right-hand text in \.pull-right\[ foo \]
+`r ''````{r tidy=FALSE}
+if (TRUE) {
+*{{ message("Very important!") }}
+}
+```
 
-- foo
+Output:
+```{r tidy=FALSE}
+if (TRUE) {
+{{ message("Very important!") }}
+}
+```
 
-- foo
+It is valid R code so you can run it. Note that `{{}}` can wrap an R expression of multiple lines.
 ]
 
 ---
 
-## Next Steps...
+# Highlight with trailing `#<<`
 
-### Text Analysis
+An example of using the trailing comment `#<<` to highlight lines:
 
-- Voyant - Text Analysis
-- Gephi - Network Graph Analysis
-- Lib Guides
-
-- http://guides.library.duke.edu/text_analysis
-- http://guides.library.duke.edu/digital_humanities 
-
-- R and its many packages
-
----
-class: inverse
-
-## inverse
-
-### h3
-
-**Accomplish** this with '`class: inverse`' as the first line below '`---`'
-
-Lorem Ipsum
-
-"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-
----
-class: softblue
-
-## softblue
-
-**Accomplish** this with '`class: softblue`' as the first line below '`---`'
-
-Lorem Ipsum
-
-"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-
-- one
-
-- [Google](http://google.com)
-
-- three
-
----
-class: orange
-
-## orange
-
-**Accomplish** this with '`class: orange`' as the first line below '`---`'
-
-Lorem Ipsum
-
-"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-
-- one
-
-- [Google](http://google.com)
-
-- three
-
----
-class: green
-
-## green
-
-- `class: green`
-
-"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-
-- one
-
-- [Green website inspirations](https://webdesignledger.com/50-green-web-designs-to-inspire-you/)
-
-- three
+``` r
+library(ggplot2)
+ggplot(mtcars) + 
+  aes(mpg, disp) + 
+  geom_point() +   #<<
+  geom_smooth()    #<<
+```
 
 
----
-class: h2orange
-background-image: url(http://www.publicdomainpictures.net/pictures/170000/velka/hand-holding-old-keys-1462981136Ul1.jpg)
+Output:
 
-## CUSTOM: Two Column
-
-**Accomplish** this with '`class: hs2orange`' as the first line below '`---`'
-
-Lorem Ipsum
-
-"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-
-
-.left-column[
-- You can generate a left column 
-- by wrapping the left-hand text in \.left-column\[ foo \]
-- You will want to custom edit the duke.css to suit your needs
-]
-
-.right-column[
-- You can generate a right column
-
-- by wrapping the right-hand text in \.right-column\[ foo \]
-
-- You will want to custom edit the duke.css to suit your needs
-]
-
-<!-- Image credit:  http://www.publicdomainpictures.net/view-image.php?image=167489  -->
+```{r tidy=FALSE, eval=FALSE}
+library(ggplot2)
+ggplot(mtcars) + 
+  aes(mpg, disp) + 
+  geom_point() +   #<<
+  geom_smooth()    #<<
+```
 
 ---
 ## Thank You For Attending
@@ -241,4 +672,5 @@ C bn
   
   
 [CC BY-NC license](https://creativecommons.org/licenses/by-nc/4.0/)
+
 
