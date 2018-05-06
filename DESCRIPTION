@@ -1,5 +1,5 @@
 Package: dukeslides
-Version: 0.0.0.9004
+Version: 0.0.0.9005
 Title: Rmarkdown Slides Template for Duke flavored Xaringan
 Description: How2 File_NewFile_RMarkdown_FromTemplate foo
 Authors@R: person("John", "Little", email = "John.Little@Duke.edu", role = c("aut", "cre"))
