@@ -1,55 +1,66 @@
 a, a > code {
-  color: rgb(161,183,13);
+  color: rgb(6,128,205);
   text-decoration: none;
 }
 
 h1, h2, h3 {
-  color: #0736A4;
+  /* color: #0736A4 */
+  color: #003366;
+  line-height: 0.6em;
+	text-shadow: 0 0 10px #666666;
 }
  
-.orange {
+.dk_orange {
 	background-color: #F09905;
 }
 
-.orange a, .orange a > code {
+.dk_orange a, .dk_orange a > code {
 	color: rgb(6,128,205);
 	text-decoration: none;
 }
 
-.orange h1, .orange h2, .orange h3 {
+.dk_orange h1, .dk_orange h2, .dk_orange h3 {
 	  color: #001A57;
+	  line-height: 0.8em;
+	  text-shadow: 0 0 10px #666666;
 }
 
-.softblue {
+.dk_softblue {
   background-color: #339999;
   color: #FFD960;
 }
-.softblue h1, .softblue h2, .softblue h3 {
+
+.dk_softblue a, .dk_softblue a > code {
+  /* color: rgb(153,50, 153); */
+  color: rgb(19,2,131);
+  text-decoration: none;
+}
+.dk_softblue h1, .dk_softblue h2, .dk_softblue h3 {
   color: #001A57;
   line-height: 0.8em;
   text-shadow: 0 0 10px #728302;
 }
 
-.green {
+.dk_green {
   background-color: #728302;
-  color: #FFD960;
+  /* color: #FFD960; */
 }
-.green h1, .green h2, .green h3 {
+.dk_green h1, .dk_green h2, .dk_green h3 {
   color: #001A57;
   line-height: 0.8em;
   text-shadow: 0 0 10px #FFD960;
 }
 
-.green a, .green a > code {
+.dk_green a, .dk_green a > code {
 	color: rgb(19,2,131);
 	text-decoration: none;
 }
 
 .inverse {
-  /* background-color: #0736A4; */
   background-color: #003366;
-  color: #0736A4;
-  text-shadow: 0 0 20px #339999;
+  color: #B5B5B5;
+  text-shadow: 0 0 20px #728302;
+  /* 001A57 728302*/
 }
 
 .inverse h1, .inverse h2, .inverse h3 {
@@ -57,30 +68,6 @@ h1, h2, h3 {
   line-height: 0.8em;
 }
 
-.h2orange h2{
-  color: #F09905;
-}
-
-.left-column {
-  color: #000;
-  width: 45%;
-/*  height: 50%; */
-  float: left;
-  padding-top: 8em;
-}
-
-.left-column h2 {
-  color: #F09905;
-}
-
-.right-column {
-  background-color: rgb(51,153,153);
-  background-color: rgba(51,153,153,.75);
-  /* color: #FFD960; */
-  width: 45%;
-  float: right;
-  padding-top: 1em;
-}
 
 .imageTop {
   vertical-align: top;
@@ -90,5 +77,4 @@ h4 {
   font-family: 'Yanone Kaffeesatz';
   font-weight: normal;
 }
-
 
