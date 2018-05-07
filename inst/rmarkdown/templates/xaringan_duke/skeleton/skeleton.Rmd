@@ -709,32 +709,38 @@ ggplot(mtcars) +
 ```
 
 ---
+
 # John Little
 
-.pull-left[
-### I am ...
+&nbsp;
 
-**John Little**
-- Data Analytics Librarian
+.pull-left[.full-width[.content-box-green[
+### Data Analytics Librarian
+
 - https://johnlittle.info/
+
 - https://github.com/libjohn
+]]
 
-
-#### Your Rfun host...
+### &nbsp; Rfun host...
 You can make **Rfun** with our resources for R and data science analytics.  See the [R we having fun yet‽](https://rfun.library.duke.edu/) resource pages.
-
 ]
 
-.pull-right[
-### Duke Univesrity...
+.pull-right[.content-box-grey[
+### Duke Univesrity
+
 **Data & Visualization Services**
+
 - https://library.duke.edu/data/
 - askData@Duke.edu
 - The /Edge, Bostock (1st Floor)
 - [Past Workshops](https://library.duke.edu/data/news/past-workshops)
 - [Guides & Tutorials](https://library.duke.edu/data/tutorials)
 
-]
+]]
+
+
+
 
 ---
 class: center, middle
