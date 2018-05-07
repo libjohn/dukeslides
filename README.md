@@ -1,46 +1,36 @@
-# pkg-test
-just a folly to see about making a packge
 
-## Example
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+dukeslides
+==========
 
-foo ipsum ballipsumdeedum
+The goal of dukeslides is to generate an \*R Markdown\*\* [document template](https://rmarkdown.rstudio.com/developer_document_templates.html) for [xaringan slides](https://slides.yihui.name/xaringan/#1) with [Duke Univesrity Branding](https://styleguide.duke.edu/color-palette/)
 
+Installation
+------------
 
-## How To Create a Package & Template
-
-- https://github.com/r-lib/usethis 
-
-- https://www.tidyverse.org/articles/2017/11/usethis-1.0.0/
-
-```
-library(usethis)
-create_package("TESTslides")
-use_mit_license("John Little")
-use_package("xaringan", "Imports")
-use_roxygen_md()
-use_rcpp()
-use_revdep()
-use_readme_rmd()
-use_news_md()
-use_test("my-test_whatwhat")
-https://rmarkdown.rstudio.com/developer_document_templates.html
-```
-## Resources
-
-- library(usethis)
-- library(devtools)
-- library(roxygen2)
-- library(xaringan)
-- http://usethis.r-lib.org/
-- http://usethis.r-lib.org/articles/articles/usethis-setup.html
-- https://rawgit.com/jimhester/presentations/master/2018_02_03-You-can-make-a-package-in-20-minutes/2018_02_03-rstudio_conf-You_can_make_a_package_in_20_minutes.html#/section
-- https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/
-- http://tinyheero.github.io/jekyll/update/2015/07/26/making-your-first-R-package.html
-- http://www.masalmon.eu/2017/12/11/goodrpackages/
-- http://r-pkgs.had.co.nz/
-
-
+`dukeslides` has note been submitted to [CRAN](https://CRAN.R-project.org) (, yet...)
 
 ``` r
-install.packages("TESTslides")
+install.packages("dukeslides")
 ```
+
+**Install** the *development version* from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("libjohn/dukeslides")
+```
+
+Example
+-------
+
+Create a new R Markdown document from the menu File
+
+In R Studio...
+
+`New File -> R Markdown -> From Template -> Slide template for Duke University  {dukeslides}`
+
+Bug Reports
+-----------
+
+<https://github.com/libjohn/dukeslides/issues>

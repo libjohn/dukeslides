@@ -14,5 +14,3 @@ BugReports: https://github.com/libjohn/TEST2slides/issues
 Imports: 
     xaringan,
     kableExtra
-URL: https://github.com/libjohn/dukeslides
-BugReports: https://github.com/libjohn/dukeslides/issues    
