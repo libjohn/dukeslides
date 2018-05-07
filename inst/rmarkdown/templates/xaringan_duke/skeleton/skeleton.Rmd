@@ -708,6 +708,7 @@ ggplot(mtcars) +
   geom_smooth()    #<<
 ```
 
+---
 # John Little
 
 .pull-left[
