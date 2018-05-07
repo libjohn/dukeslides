@@ -12,7 +12,6 @@ output:
       - libs/hygge-duke.css
       - libs/duke-blue.css
       - libs/cc-fonts.css
-      - figures.css
     nature:
       highlightStyle: github
       highlightLines: true
@@ -738,11 +737,16 @@ You can make **Rfun** with our resources for R and data science analytics.  See 
 
 ---
 class: center, middle
-## Shareable under CC BY-NC license 
+## Shareable 
+
+Data, presentation, and handouts 
+
+<span class="cc">
+<!-- Key: a: SA, b: BY, c: CC Circle, d: ND, n: NC, m: Sampling, s: Share, r: Remix, C: CC Full Logo -->
+C bn
+</span>
 
 
-Data, presentation, and handouts are shareable under [CC BY-NC license](https://creativecommons.org/licenses/by-nc/4.0/)
-
-![This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.](images/cc-by-nc.png "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License")
+[CC BY-NC license](https://creativecommons.org/licenses/by-nc/4.0/)
 
 
