@@ -36,6 +36,8 @@ This example slide deck extends the excellent collaborative work of the xaringan
 
 
 ---
+class: middle
+
 # NOTE
 
 Many of the *cheat sheet* examples are displayed in the slide itself.  Some of the example code will be found in the presenter notes.  
@@ -62,6 +64,8 @@ You can find these style sheets declared in the `yaml` header of the R Markdown 
 background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Duke_University_logo.svg/640px-Duke_University_logo.svg.png)
 
 ``` css
+# Display background image with background-image: url()
+#
 background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Duke_University_logo.svg/640px-Duke_University_logo.svg.png)
 ```
 
@@ -77,6 +81,7 @@ class: inverse, center, middle
 
 .justify-left[
 ``` r
+---
 class: inverse, center, middle
 
 # Get Started
@@ -106,13 +111,16 @@ devtools::install_github("yihui/xaringan")
 ---
 # Making Bullets
 
-- List items (bullets) are invoked with a leading, left-justified dash, just like any Rmarkdown document
+- List items (bullets) are invoked with a leading, left-justified dash, just like any Rmarkdown<sup>1</sup> document
 
 ``` r
 - List items (bullets) are invoked with a leading,
 left-justified dash, just like any 
-Rmarkdown document
+Rmarkdown<sup>1</sup> document
 ```
+.footnote[
+[1] [Getting Started with R Markdown](https://rmarkdown.rstudio.com/lesson-1.html)
+]
 
 --
 
@@ -722,7 +730,7 @@ ggplot(mtcars) +
 - https://github.com/libjohn
 ]]
 
-### &nbsp; Rfun host...
+### Rfun host...
 You can make **Rfun** with our resources for R and data science analytics.  See the [R we having fun yet‽](https://rfun.library.duke.edu/) resource pages.
 ]
 
