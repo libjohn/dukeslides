@@ -121,7 +121,7 @@ Rmarkdown document
 --
 ```
 
-Two left-justified dashes creates a pause to reveal the slide in increments.  `arrow` keys and number keys advance from slide to slide. [See more documentation on incrementing](https://slides.yihui.name/xaringan/incremental.html#11)
+- Two left-justified dashes creates a pause to reveal the slide in increments.  `arrow` keys and number keys advance from slide to slide. [See more documentation on incrementing](https://slides.yihui.name/xaringan/incremental.html#11)
 
 --
 
@@ -187,14 +187,21 @@ class: inverse
 
 ### h3
 
+Lorem Ipsum
+
+"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+
 ``` r
 ---
 class: inverse
-```
+
+### h3
 
 Lorem Ipsum
 
 "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+```
+
 
 ---
 class: duke-softblue
@@ -302,6 +309,8 @@ background-size: contain
 ]]]]
 
 <!-- Image credit:  http://www.publicdomainpictures.net/view-image.php?image=167489  -->
+
+.footnote[`View Source` to see what's being done here]
 
 ???
 
