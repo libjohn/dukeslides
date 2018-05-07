@@ -230,3 +230,14 @@
 .justify-center {
   text-align: center;
 }
+
+
+/* fix the help page '?' */
+
+.remark-help-content td{
+  color: black !important;
+}
+
+.remark-backdrop {
+  background: #988675 !important;
+}
