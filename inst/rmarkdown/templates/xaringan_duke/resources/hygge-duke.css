@@ -14,6 +14,10 @@
  **************/
 
 
+/* Colors are defined by the          */
+/* Duke Branding Color Palette        */ 
+/* https://styleguide.duke.edu/color-palette/   */
+
 .Large { font-size: 144% }
 .large { font-size: 120% }
 .small { font-size: 90% }
@@ -77,52 +81,50 @@
 
 .content-box-gray {
     /* set opacity in last decimal value of rgba */
-    background-color: rgb(40,40,40);
-    background-color: rgba(40,40,40,.85);
+    background-color: rgb(102, 102, 102);
+    background-color: rgba(102, 102, 102,.85);
 }
 
 .content-box-grey {
-  /* set opacity in last decimal value of rgba */
-	background-color: rgb(71,71,71);
-  background-color: rgba(71,71,71,.85);
+  /* set opacity: uncomment rgba line */ 
+  /* alter opacity with last decimal value of rgba */
+	background-color: rgb(181, 181, 181);
+  /* background-color: rgba(181, 181, 181,.85); */
 }
 
 .content-box-neutral {
   background-color: #988675;
-  /* background-color: rgb(60, 53, 46); */
-  /* background-color: rgba(60,53,46,.85) */
 }
 
 
 .content-box-duke-green {
   /* set opacity in last decimal value of rgba */
-	background-color: rgb(45,51,1);
-  background-color: rgba(45,51,1,.85);
+	background-color: rgb(114, 131, 2);
+  background-color: rgba(114, 131, 2,.85);
 }
 
 .content-box-green {
   /* set opacity in last decimal value of rgba */
-	background-color: rgb(63,72,5);
-  background-color: rgba(63,72,5,.85);
+	background-color: rgb(161, 183, 13);
+  background-color: rgba(161, 183, 13,.85);
 }
 
 .content-box-purple {
   /* set opacity in last decimal value of rgba */
-	background-color: rgb(60,20,60);
-  background-color: rgba(60,20,60,.85)
+	background-color: rgb(153, 51, 153);
+  background-color: rgba(153, 51, 153, .85)
 }
 
 .content-box-red {
   /* set opacity in last decimal value of rgba */
-	background-color: rgb(80,20,0);
-  background-color: rgba(80,20,0,.85)
+	background-color: rgb(204, 51, 0);
+  background-color: rgba(204, 51, 0,.85)
 }
 
 .content-box-yellow {
   /* set opacity in last decimal value of rgba */
-	background-color: #FFD960;
-	background-color: rgb(100,85,38);
-  background-color: rgba(100,85,38,.85)
+	background-color: rgb(255, 217, 96);
+  background-color: rgba(255, 217, 96, .85)
 }
 
 
@@ -209,4 +211,22 @@
     -webkit-box-shadow: 5px 5px 5px #aaa;
     box-shadow: 5px 5px 5px #aaa;
     border-radius: 2px;  
+}
+
+/*******************
+ *
+ * Text alignment / justification
+ *
+ *******************/
+
+.justify-left {
+  text-align: left;
+}
+
+.justify-right {
+  text-align: right;
+}
+
+.justify-center {
+  text-align: center;
 }

@@ -67,12 +67,13 @@ class: inverse, center, middle
 
 # Get Started
 
-
+.justify-left[
 ``` r
 class: inverse, center, middle
 
 # Get Started
 ```
+]
 
 ---
 
@@ -347,7 +348,7 @@ Use `.content-box-blue` (or gray/grey, duke-green, green, purple, red, or yellow
 
 Wrap in `.full-width` to expand the width
 
-.full-width[.content-box-red[I feel even more blue]]
+.full-width[.content-box-red[I feel wide and red]]
 
 If you have content in columns then you get
 
