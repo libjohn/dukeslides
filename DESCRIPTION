@@ -1,7 +1,7 @@
 Package: dukeslides
-Version: 0.0.0.9400
-Title: Rmarkdown Slides Template for Duke flavored Xaringan
-Description: How2 File_NewFile_RMarkdown_FromTemplate foo
+Version: 0.0.0.9500
+Title: Rmarkdown Slides Template for Duke slides via Xaringan
+Description: Xaringan template with Duke Branding
 Authors@R: person("John", "Little", email = "John.Little@Duke.edu", role = c("aut", "cre"))
 License: MIT + file LICENSE
 Encoding: UTF-8
@@ -14,3 +14,5 @@ BugReports: https://github.com/libjohn/TEST2slides/issues
 Imports: 
     xaringan,
     kableExtra
+URL: https://github.com/libjohn/dukeslides
+BugReports: https://github.com/libjohn/dukeslides/issues    
