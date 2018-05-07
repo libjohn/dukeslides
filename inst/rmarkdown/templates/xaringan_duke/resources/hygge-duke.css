@@ -55,6 +55,7 @@
 .content-box-blue,
 .content-box-gray,
 .content-box-grey,
+.content-box-neutral,
 .content-box-duke-green,
 .content-box-green,
 .content-box-purple,
@@ -85,6 +86,13 @@
 	background-color: rgb(71,71,71);
   background-color: rgba(71,71,71,.85);
 }
+
+.content-box-neutral {
+  background-color: #988675;
+  /* background-color: rgb(60, 53, 46); */
+  /* background-color: rgba(60,53,46,.85) */
+}
+
 
 .content-box-duke-green {
   /* set opacity in last decimal value of rgba */
