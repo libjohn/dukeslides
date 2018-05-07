@@ -10,48 +10,48 @@ h1, h2, h3 {
 	text-shadow: 0 0 10px #666666;
 }
  
-.dk_orange {
+.duke-orange {
 	background-color: #F09905;
 }
 
-.dk_orange a, .dk_orange a > code {
+.duke-orange a, .dk_orange a > code {
 	color: rgb(6,128,205);
 	text-decoration: none;
 }
 
-.dk_orange h1, .dk_orange h2, .dk_orange h3 {
+.duke-orange h1, .duke-orange h2, .duke-orange h3 {
 	  color: #001A57;
 	  line-height: 0.8em;
 	  text-shadow: 0 0 10px #666666;
 }
 
-.dk_softblue {
+.duke-softblue {
   background-color: #339999;
   color: #FFD960;
 }
 
-.dk_softblue a, .dk_softblue a > code {
+.duke-softblue a, .duke-softblue a > code {
   /* color: rgb(153,50, 153); */
   color: rgb(19,2,131);
   text-decoration: none;
 }
-.dk_softblue h1, .dk_softblue h2, .dk_softblue h3 {
+.duke-softblue h1, .duke-softblue h2, .duke-softblue h3 {
   color: #001A57;
   line-height: 0.8em;
   text-shadow: 0 0 10px #728302;
 }
 
-.dk_green {
+.duke-green {
   background-color: #728302;
   /* color: #FFD960; */
 }
-.dk_green h1, .dk_green h2, .dk_green h3 {
+.duke-green h1, .duke-green h2, .duke-green h3 {
   color: #001A57;
   line-height: 0.8em;
   text-shadow: 0 0 10px #FFD960;
 }
 
-.dk_green a, .dk_green a > code {
+.duke-green a, .duke-green a > code {
 	color: rgb(19,2,131);
 	text-decoration: none;
 }

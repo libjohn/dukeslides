@@ -177,13 +177,13 @@ Lorem Ipsum
 "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
 
 ---
-class: dk_softblue
+class: duke-softblue
 
-## dk_softblue
+## duke-softblue
 
 ``` r
 ---
-class: dk_softblue
+class: duke-softblue
 ```
 
 Lorem Ipsum
@@ -197,13 +197,13 @@ Lorem Ipsum
 - three
 
 ---
-class: dk_orange
+class: duke-orange
 
-## dk_orange
+## duke-orange
 
 ``` r
 ---
-class: dk_orange
+class: duke-orange
 ```
 
 Lorem Ipsum
@@ -217,13 +217,13 @@ Lorem Ipsum
 - three
 
 ---
-class: dk_green
+class: duke-green
 
-## dk_green
+## duke-green
 
 ``` r
 ---
-class: dk_green
+class: duke-green
 ```
 
 "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
