@@ -54,7 +54,7 @@ The CSS style used in this example are
 - xaringan default font (`default-fonts`)
 - [Duke Unversity color palette](https://styleguide.duke.edu/color-palette/) (`duke-blue.css`)
 - Duke color palette overlaid on [Hygge CSS](http://biostatistics.dk/presentations/xaringan/ghoul.html), (`hygge-duke.css`)
-- Creative Commons licensing [fonts](https://stackoverflow.com/a/5215916) (CC BY-NC, etc.) (`cc-fonts.css`)
+- [Creative Commons](https://creativecommons.org/) licensing [fonts](https://stackoverflow.com/a/5215916) (CC BY-NC, etc.) (`cc-fonts.css`)
 - some figure Captions (`figures.css`)
 
 You can find these style sheets declared in the `yaml` header of the R Markdown slide file.
