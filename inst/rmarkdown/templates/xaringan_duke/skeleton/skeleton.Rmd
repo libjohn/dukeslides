@@ -27,7 +27,7 @@ class: center, middle
 
 ### /ʃæ.'riŋ.ɡæn/
 
-This example slide deck extends the excellent collaborative work of the xaringan and Remark.js slide tools.  With this template, slide authors can compose xaringan slides using [R Markdown](https://rmarkdown.rstudio.com/) to present [Duke University branding](https://styleguide.duke.edu/color-palette/).
+This example slide deck extends the excellent collaborative work of the xaringan and Remark.js slide tools.  With this template, slide authors can compose xaringan slides via [R Markdown](https://rmarkdown.rstudio.com/) and present with [Duke University branding](https://styleguide.duke.edu/color-palette/).
 
 .justify-left[
 [Yihui Xie](https://yihui.name/) provides wonderful [technical documentation](https://slides.yihui.name/xaringan/) and a [wiki](https://github.com/yihui/xaringan/wiki) for the [xaringan package](https://github.com/yihui/xaringan). Some of his documentation is repeated here.  
@@ -39,7 +39,11 @@ This example slide deck extends the excellent collaborative work of the xaringan
 ---
 # NOTE
 
-Most of the cheat sheet examples will get displayed in the slide itself.  Some of the example code will be found in the presenter notes.  The full detailed R Markdown can always be displayed by opening the rendered HTML slides in your web browser and `View Source`.  You can access the presenter notes by pressing the keyboard shortcut `p`.  (`?` for other shortcuts)
+Many of the *cheat sheet* examples are displayed in the slide itself.  Some of the example code will be found in the presenter notes.  
+
+Full detailed R Markdown can always be displayed by opening the rendered HTML slides in your **web browser and `View Source`**.  
+
+Access **presenter notes** by pressing the keyboard shortcut .red[**`p`**].  (Or, `?` for other shortcuts)
 
 ---
 ## CSS styles 
@@ -49,8 +53,8 @@ The CSS style used in this example are
 - xaringan default  (`default`)
 - xaringan default font (`default-fonts`)
 - [Duke Unversity color palette](https://styleguide.duke.edu/color-palette/) (`duke-blue.css`)
-- Duke color palette overlaid on Hygge CSS, (`hygge-duke.css`)
-- Creative Commons licensing fonts (CC BY-NC, etc.) (`cc-fonts.css`)
+- Duke color palette overlaid on [Hygge CSS](http://biostatistics.dk/presentations/xaringan/ghoul.html), (`hygge-duke.css`)
+- Creative Commons licensing [fonts](https://stackoverflow.com/a/5215916) (CC BY-NC, etc.) (`cc-fonts.css`)
 - some figure Captions (`figures.css`)
 
 You can find these style sheets declared in the `yaml` header of the R Markdown slide file.
@@ -88,26 +92,36 @@ Install the **xaringan** package from [Github](https://github.com/yihui/xaringan
 
 ```{r eval=FALSE, tidy=FALSE}
 # monospace font is displayed when code is written 
-# inside of an R Markdown code chunk
+# inside of an Rmarkdown code chunk
 #
 devtools::install_github("yihui/xaringan")
 ```
 
---
-
-Two left-justified dashes `--` creates a pause to reveal the slide in increments.  `click` or `arrow` to advance just likes from slide to slide. [more documentation on incrementing](https://slides.yihui.name/xaringan/incremental.html#11)
-
+.content-box-grey[
 - **Create a new R Markdown document** from the menu `File -> New File -> R Markdown -> From Template -> Ninja Presentation`
+]
+
+.content-box-grey[
+- Click the **`Knit`** button **to compile** the slide into rendered HTML;]
+
+---
+# Making Bullets
+
+- List items (bullets) are invoked with a leading, left-justified dash, just like any Rmarkdown document
+
+``` r
+- List items (bullets) are invoked with a leading,
+left-justified dash, just like any 
+Rmarkdown document
+```
 
 --
 
-- Click the **`Knit`** button **to compile** the slide into rendered HTML;
-
+``` r
+--
 ```
-list items (bullets) are invoked with a leading, left-justified dash '-' 
-(just like any R Markdown document)
 
-```
+Two left-justified dashes creates a pause to reveal the slide in increments.  `arrow` keys and number keys advance from slide to slide. [See more documentation on incrementing](https://slides.yihui.name/xaringan/incremental.html#11)
 
 --
 
