@@ -135,7 +135,7 @@ class: center, top, inverse
 # Rock Cairn Hiking
 
 
-.black[See presenter mode, `p`, to see how background-images are declared]
+.footer-note[.tiny[.green[Image Credit: ][Brandon Rasmussen](https://www.flickr.com/photos/137029081@N02/30943501632/in/photostream/)]]
 
 ???
 
@@ -146,8 +146,8 @@ class: center, top, inverse
 
 # Rock Cairn Hiking
 
-See presenter mode, `p`, to see how background-images are declared
 
+.footer-note[.tiny[.green[Image Credit: ][Brandon Rasmussen](https://www.flickr.com/photos/137029081@N02/30943501632/in/photostream/)]]
 ```
 
 ---

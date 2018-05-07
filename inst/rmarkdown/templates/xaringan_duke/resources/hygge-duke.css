@@ -241,3 +241,14 @@
 .remark-backdrop {
   background: #988675 !important;
 }
+
+
+/*  footer */
+
+.footer-note {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    width: 200px;
+    height: 25px;
+}
