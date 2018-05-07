@@ -310,7 +310,11 @@ background-size: contain
 
 <!-- Image credit:  http://www.publicdomainpictures.net/view-image.php?image=167489  -->
 
-.footnote[`View Source` to see what's being done here]
+&nbsp; 
+
+.footnote[.scriptsize[
+`View Source` to see all of the R Markdown for this slide
+]]
 
 ???
 
@@ -360,9 +364,11 @@ You can also use `.bold[]` or `.bolder[]` to emphasize text
 
 This is .bold[bold], this is .bolder[bolder] and this is regular markdown **double-star bold** (visible differences depend on the font)
 
-
-
 ]
+
+.content-box-green[.scriptsize[.justify-center[
+[Hegge CSS](http://biostatistics.dk/presentations/xaringan/ghoul.html) + [Duke Color Palette](https://styleguide.duke.edu/color-palette/) = hegge-duke.css]
+]]]
 
 ---
 
@@ -389,6 +395,8 @@ If you have content in columns then you get
 ## Coloured content boxes
 
 Use `.content-box-blue` (or gray/grey, duke-green, green, purple, red, or yellow) to produce a box with coloured background. Size depends on content.
+
+&nbsp;
 
 .content-box-blue[I feel blue]
 .content-box-grey[grey]
@@ -701,50 +709,40 @@ ggplot(mtcars) +
   geom_smooth()    #<<
 ```
 
----
-## Thank You For Attending
+# John Little
 
 .pull-left[
 ### I am ...
 
-- John Little
-- https://johnlittle.info
-- http://github.com/libjohn
+**John Little**
+- Data Analytics Librarian
+- https://johnlittle.info/
+- https://github.com/libjohn
 
-#### Schedule Me
 
-- [http:&#47;&#47;v.gd&#47;littleconsult](http://duke.libcal.com/appointment/2695)
+#### Your Rfun host...
+You can make **Rfun** with our resources for R and data science analytics.  See the [R we having fun yet‽](https://rfun.library.duke.edu/) resource pages.
+
 ]
 
 .pull-right[
-### We are...
-- Data & Visualization Services
-- http://library.duke.edu/data
-- The /Edge, Bostock (1st Floor)
-
-#### Walk-in Hours
-- [Schedule](http://library.duke.edu/data/about/schedule)
-
-#### Our Workshops
-- [Current Workshops](http://library.duke.edu/data/news)
-- [Past Workshops](http://library.duke.edu/data/news/past-workshops)
-
-#### Contact Us
+### Duke Univesrity...
+**Data & Visualization Services**
+- https://library.duke.edu/data/
 - askData@Duke.edu
+- The /Edge, Bostock (1st Floor)
+- [Past Workshops](https://library.duke.edu/data/news/past-workshops)
+- [Guides & Tutorials](https://library.duke.edu/data/tutorials)
+
 ]
 
 ---
 class: center, middle
-## Shareable 
+## Shareable under CC BY-NC license 
 
-Data, presentation, and handouts 
 
-<span class="cc">
-<!-- Key: a: SA, b: BY, c: CC Circle, d: ND, n: NC, m: Sampling, s: Share, r: Remix, C: CC Full Logo -->
-C bn
-</span>
-  
-  
-[CC BY-NC license](https://creativecommons.org/licenses/by-nc/4.0/)
+Data, presentation, and handouts are shareable under [CC BY-NC license](https://creativecommons.org/licenses/by-nc/4.0/)
+
+![This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.](images/cc-by-nc.png "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License")
 
 
