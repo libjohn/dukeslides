@@ -1,5 +1,5 @@
 /* Colors are defined by the          */
-/* Duke Branding Color Palette        */
+/* Duke Branding Color Palette        */ 
 /* https://styleguide.duke.edu/color-palette/   */
 
 a, a > code {
@@ -8,11 +8,12 @@ a, a > code {
 }
 
 h1, h2, h3 {
+  /* color: #0736A4 */
   color: #003366;
   line-height: 0.6em;
 	text-shadow: 0 0 10px #666666;
 }
-
+ 
 .duke-orange {
 	background-color: #F09905;
 }
