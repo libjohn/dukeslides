@@ -13,8 +13,4 @@ URL: https://github.com/libjohn/TEST2slides
 BugReports: https://github.com/libjohn/TEST2slides/issues
 Imports: 
     xaringan,
-    htmltools,
-    knitr,
-    servr,
-    xfun,
-    rmarkdown
+    kableExtra
