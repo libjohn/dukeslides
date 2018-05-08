@@ -9,8 +9,8 @@ output:
     css: 
       - default
       - default-fonts
-      - libs/duke-blue
-      - libs/hygge-duke
+      - duke-blue
+      - hygge-duke
       - libs/cc-fonts.css
     nature:
       highlightStyle: github
