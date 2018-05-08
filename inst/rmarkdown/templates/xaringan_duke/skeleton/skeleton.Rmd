@@ -141,7 +141,7 @@ class: center, top, inverse
 
 # Rock Cairn Hiking
 
-
+.justify-left[
 ``` r
 ---
 background-image: url(https://c2.staticflickr.com/6/5729/30943501632_eb0b200eed_b.jpg)
@@ -152,6 +152,7 @@ class: center, top, inverse
 .footer-note[.tiny[.green[Image Credit: ][Brandon Rasmussen](https://www.flickr.com/photos/137029081@N02/30943501632/in/photostream/)]]
 
 ```
+]
 
 
 .footer-note[.tiny[.green[Image Credit: ][Brandon Rasmussen](https://www.flickr.com/photos/137029081@N02/30943501632/in/photostream/)]]
@@ -423,9 +424,15 @@ Use `.content-box-blue` to produce a box with blue background. Size depends on c
 .content-box-gray[gray]
 .content-box-grey[grey]
 .content-box-neutral[neutral]
+
+&nbsp;
+
 .content-box-duke-green[duke-green]
 .content-box-green[green]
 .content-box-purple[purple]
+
+&nbsp; 
+
 .content-box-red[red]
 .content-box-yellow[yellow]
 
