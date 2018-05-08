@@ -3,7 +3,7 @@
 dukeslides
 ==========
 
-The goal of dukeslides is to generate an \*R Markdown\*\* [document template](https://rmarkdown.rstudio.com/developer_document_templates.html) for [xaringan slides](https://slides.yihui.name/xaringan/#1) with [Duke Univesrity Branding](https://styleguide.duke.edu/color-palette/)
+The goal of dukeslides is to generate an *R Markdown* [document template](https://rmarkdown.rstudio.com/developer_document_templates.html) for [xaringan slides](https://slides.yihui.name/xaringan/#1) with [Duke Univesrity branding](https://styleguide.duke.edu/color-palette/)
 
 Installation
 ------------
@@ -24,7 +24,7 @@ devtools::install_github("libjohn/dukeslides")
 Example
 -------
 
-Create a new R Markdown document from the menu File
+Create a new R Markdown document from the File menu
 
 In R Studio...
 
