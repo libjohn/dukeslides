@@ -9,8 +9,8 @@ output:
     css: 
       - default
       - default-fonts
-      - libs/hygge-duke.css
-      - libs/duke-blue.css
+      - duke-blue
+      - hygge-duke
       - libs/cc-fonts.css
     nature:
       highlightStyle: github
@@ -26,9 +26,9 @@ class: center, middle
 
 ### /ʃæ.'riŋ.ɡæn/
 
+.justify-left[
 This example slide deck extends the excellent collaborative work of the xaringan and Remark.js slide tools.  With this template, slide authors can compose xaringan slides via [R Markdown](https://rmarkdown.rstudio.com/) and present with [Duke University branding](https://styleguide.duke.edu/color-palette/).
 
-.justify-left[
 [Yihui Xie](https://yihui.name/) provides wonderful [technical documentation](https://slides.yihui.name/xaringan/) and a [wiki](https://github.com/yihui/xaringan/wiki) for the [xaringan package](https://github.com/yihui/xaringan). Some of his documentation is repeated here.  
 
 **My goal** is to present **example slides** with example **R Markdown** and xaringan **syntax** to demonstrate presentation styles. 
@@ -141,6 +141,19 @@ class: center, top, inverse
 
 # Rock Cairn Hiking
 
+.justify-left[
+``` r
+---
+background-image: url(https://c2.staticflickr.com/6/5729/30943501632_eb0b200eed_b.jpg)
+class: center, top, inverse
+
+# Rock Cairn Hiking
+
+.footer-note[.tiny[.green[Image Credit: ][Brandon Rasmussen](https://www.flickr.com/photos/137029081@N02/30943501632/in/photostream/)]]
+
+```
+]
+
 
 .footer-note[.tiny[.green[Image Credit: ][Brandon Rasmussen](https://www.flickr.com/photos/137029081@N02/30943501632/in/photostream/)]]
 
@@ -201,6 +214,8 @@ Lorem Ipsum
 ``` r
 ---
 class: inverse
+
+## inverse
 
 ### h3
 
@@ -401,16 +416,26 @@ If you have content in columns then you get
 
 ## Coloured content boxes
 
-Use `.content-box-blue` (or gray/grey, duke-green, green, purple, red, or yellow) to produce a box with coloured background. Size depends on content.
+Use `.content-box-blue` to produce a box with blue background. Size depends on content.  color has the following options:  `.content-box-color` where color is   blue | gray | gey | neutral | duke-green | green | purple | red | yellow
 
 &nbsp;
 
-.content-box-blue[I feel blue]
+.content-box-blue[blue]
+.content-box-gray[gray]
 .content-box-grey[grey]
-.content-box-duke-green[army]
+.content-box-neutral[neutral]
+
+&nbsp;
+
+.content-box-duke-green[duke-green]
 .content-box-green[green]
+.content-box-purple[purple]
+
+&nbsp; 
+
 .content-box-red[red]
 .content-box-yellow[yellow]
+
 
 ---
 
@@ -629,9 +654,7 @@ DT::datatable(
 
 # Increments, Layouts and Templates
 
-I think the term "template" is ambiguous here.  You can follow the documentation.  There are R Markdown templates and then there are Remark.js templates.  
-
-See [incremental slides documentation presentation](https://slides.yihui.name/xaringan/incremental.html) for examples.
+I think the term "template" is ambiguous here.  You can follow the documentation.  Just know, there are R Markdown templates and then there are Remark.js templates.  Look at the next link for the definition of the Remark.js templates.  [Incremental slides documentation](https://slides.yihui.name/xaringan/incremental.html).
 
 ---
 
