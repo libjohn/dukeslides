@@ -3,16 +3,12 @@
 dukeslides
 ==========
 
-The goal of dukeslides is to generate an *R Markdown* [document template](https://rmarkdown.rstudio.com/developer_document_templates.html) for [xaringan slides](https://slides.yihui.name/xaringan/#1) with [Duke Univesrity branding](https://styleguide.duke.edu/color-palette/)
+The goal of dukeslides is to provide an *R Markdown* [document template](https://rmarkdown.rstudio.com/developer_document_templates.html) for [xaringan slides](https://slides.yihui.name/xaringan/#1) with [Duke Univesrity branding](https://styleguide.duke.edu/color-palette/)
 
 Installation
 ------------
 
-`dukeslides` has note been submitted to [CRAN](https://CRAN.R-project.org) (, yet...)
-
-``` r
-install.packages("dukeslides")
-```
+`dukeslides` has not been submitted to [CRAN](https://CRAN.R-project.org) (, yet...)
 
 **Install** the *development version* from [GitHub](https://github.com/) with:
 
@@ -26,9 +22,15 @@ Example
 
 Create a new R Markdown document from the File menu
 
-In R Studio...
+In RStudio...
 
-`New File -> R Markdown -> From Template -> Slide template for Duke University  {dukeslides}`
+1.  `New File -> R Markdown -> From Template -> Slide template for Duke University  {dukeslides}`
+2.  Click the `Knit` button to compile the slide into rendered HTML
+
+Documentation
+-------------
+
+-   [dukeslides](https://johnlittle.info/dukeslides/)
 
 Bug Reports
 -----------

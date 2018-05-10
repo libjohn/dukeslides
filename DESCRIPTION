@@ -1,7 +1,7 @@
 Package: dukeslides
-Version: 0.0.0.9800
-Title: Rmarkdown Slides Template for Duke slides via Xaringan
-Description: Xaringan template with Duke Branding
+Version: 0.0.0.9900
+Title: Slides template for Duke University
+Description: Xaringan template with Duke University Branding
 Authors@R: person("John", "Little", email = "John.Little@Duke.edu", role = c("aut", "cre"))
 License: MIT + file LICENSE
 Encoding: UTF-8
@@ -12,7 +12,6 @@ RoxygenNote: 6.0.1
 URL: https://github.com/libjohn/dukeslides
 BugReports: https://github.com/libjohn/dukeslides/issues
 Imports: 
-    xaringan,
     kableExtra
 Remotes:  
     yihui/xaringan
