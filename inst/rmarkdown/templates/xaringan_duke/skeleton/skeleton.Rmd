@@ -12,6 +12,7 @@ output:
       - duke-blue
       - hygge-duke
       - libs/cc-fonts.css
+      - libs/figure-captions.css
     nature:
       highlightStyle: github
       highlightLines: true
@@ -42,23 +43,23 @@ class: middle
 
 Many of the *cheat sheet* examples are displayed in the slide itself.  Some of the example code will be found in the presenter notes.  
 
-Full detailed R Markdown can always be displayed by opening the rendered HTML slides in your **web browser and `View Source`**.  
-
 Access **presenter notes** by pressing the keyboard shortcut .red[**`p`**].  (Or, `?` for other shortcuts)
+
+Full detailed R Markdown can always be displayed by opening the rendered HTML slides in your **web browser via `View Source`**.  
 
 ---
 ## CSS styles 
 
 The CSS style used in this example are
 
-- xaringan default  (`default`)
-- xaringan default font (`default-fonts`)
-- [Duke Unversity color palette](https://styleguide.duke.edu/color-palette/) (`duke-blue.css`)
-- Duke color palette overlaid on [Hygge CSS](http://biostatistics.dk/presentations/xaringan/ghoul.html), (`hygge-duke.css`)
+- xaringan default  ([`default`](https://github.com/yihui/xaringan/blob/master/inst/rmarkdown/templates/xaringan/resources/default.css))
+- xaringan default font ([`default-fonts`](https://github.com/yihui/xaringan/blob/master/inst/rmarkdown/templates/xaringan/resources/default-fonts.css))
+- [Duke Unversity color palette](https://styleguide.duke.edu/color-palette/) ([`duke-blue`](https://github.com/yihui/xaringan/blob/master/inst/rmarkdown/templates/xaringan/resources/duke-blue.css))
+- Duke color palette overlaid on [Hygge CSS](http://biostatistics.dk/presentations/xaringan/ghoul.html), ([`hygge-duke`](https://github.com/yihui/xaringan/blob/master/inst/rmarkdown/templates/xaringan/resources/hygge-duke.css))
 - [Creative Commons](https://creativecommons.org/) licensing [fonts](https://stackoverflow.com/a/5215916) (CC BY-NC, etc.) (`cc-fonts.css`)
-- some figure Captions (`figures.css`)
+- figure captions (`figures.css`)
 
-You can find these style sheets declared in the `yaml` header of the R Markdown slide file.
+You can find these style sheets declared in the `yaml` header inside the R Markdown file.
 
 ---
 background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Duke_University_logo.svg/640px-Duke_University_logo.svg.png)
@@ -92,21 +93,24 @@ class: inverse, center, middle
 
 # Hello World
 
-Install the **xaringan** package from [Github](https://github.com/yihui/xaringan):
+Install the **dukeslides**<sup>1</sup> package from [Github](https://github.com/libjohn/dukeslides)
 
 ```{r eval=FALSE, tidy=FALSE}
 # monospace font is displayed when code is written 
 # inside of an Rmarkdown code chunk
-#
-devtools::install_github("yihui/xaringan")
+devtools::install_github("libjohn/dukeslides")
 ```
 
 .content-box-grey[
-- **Create a new R Markdown document** from the menu `File -> New File -> R Markdown -> From Template -> Ninja Presentation`
+- **Create a new R Markdown document** from the menu `File -> New File -> R Markdown -> From Template -> Slide template for Duke University`
 ]
 
 .content-box-grey[
-- Click the **`Knit`** button **to compile** the slide into rendered HTML;]
+- Click the **`Knit`** button **to compile** the slide into rendered HTML]
+
+.footnote[
+[1] [dukeslides](https://github.com/libjohn/dukeslides/) is a [Duke University branded](https://styleguide.duke.edu/color-palette/) version of [xaringan presentation slides](https://slides.yihui.name/xaringan/).
+]
 
 ---
 # Making Bullets
@@ -130,14 +134,21 @@ Rmarkdown<sup>1</sup> document
 
 - Two left-justified dashes creates a pause to reveal the slide in increments.  `arrow` keys and number keys advance from slide to slide. [See more documentation on incrementing](https://slides.yihui.name/xaringan/incremental.html#11)
 
---
+---
+# Knit
 
-- or use the [RStudio Addin](https://rstudio.github.io/rstudioaddins/) "Infinite Moon Reader" to live preview the slides (every time you update and save the Rmd document, the slides will be automatically reloaded in RStudio Viewer.
+As previously mentioned, 
+
+.content-box-grey[
+- Click the **`Knit`** button **to compile** the slide into rendered HTML
+]
+
+Or, use the [RStudio Addin](https://rstudio.github.io/rstudioaddins/) "Infinite Moon Reader" to live preview the slides (every time you update and save the Rmd document, the slides will be automatically reloaded in RStudio Viewer.
 
 
 ---
 background-image: url(https://c2.staticflickr.com/6/5729/30943501632_eb0b200eed_b.jpg)
-class: center, top, inverse
+class: center, top
 
 # Rock Cairn Hiking
 
@@ -145,7 +156,7 @@ class: center, top, inverse
 ``` r
 ---
 background-image: url(https://c2.staticflickr.com/6/5729/30943501632_eb0b200eed_b.jpg)
-class: center, top, inverse
+class: center, top
 
 # Rock Cairn Hiking
 
@@ -194,8 +205,15 @@ class: center, top, inverse
 ]
 
 
+``` r
+# superscript is wrapped in HTML
+TAGS <sup>1</sup>
+
+```
+
+
 .footnote[
-[1] example foonote 1  -- called with `.footnote[foo]` method
+[1] example foonote 1  -- footnote text wrapped in `.footnote[foo]`
 
 [2] example footnote 2 
 ]
@@ -287,7 +305,7 @@ class: duke-green
 background-image: url(http://www.publicdomainpictures.net/pictures/170000/velka/hand-holding-old-keys-1462981136Ul1.jpg)
 background-size: contain
 
-## HYGGE-duke Two Column
+## hygge-duke Two Column
 
 .content-box-grey[ qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... ]
 
@@ -335,7 +353,8 @@ background-size: contain
 &nbsp; 
 
 .footnote[.scriptsize[
-`View Source` to see all of the R Markdown for this slide
+- `background-size: contain`
+- `View Source` to see all of the R Markdown for this slide
 ]]
 
 ???
@@ -416,7 +435,7 @@ If you have content in columns then you get
 
 ## Coloured content boxes
 
-Use `.content-box-blue` to produce a box with blue background. Size depends on content.  color has the following options:  `.content-box-color` where color is   blue | gray | gey | neutral | duke-green | green | purple | red | yellow
+Use `.content-box-blue` to produce a box with blue background. Size depends on content.  color has the following options:  `.content-box-color` where color is   blue | gray | grey | neutral | duke-green | green | purple | red | yellow
 
 &nbsp;
 
@@ -443,17 +462,15 @@ Use `.content-box-blue` to produce a box with blue background. Size depends on c
 
 CSS is the key to managing the style of your slides.  The cascading style sheets (CSS) are declared in the yaml header.
 
-the default CSS file [here](https://github.com/yihui/xaringan/blob/master/inst/rmarkdown/templates/xaringan/resources/default.css). 
-
-
-Set the `css` option in the YAML metadata:
-
 ```yaml
 output:
   xaringan::moon_reader:
     css: ["default", "ubuntu-mono.css"]
 ```
 
+.footnote[.content-box-green[- Slide #4 documents the styles used in this presentation
+- The next slide provides some information on customizing or accessing available themes]
+]
 ---
 
 # CSS User-Contributed Themes
@@ -475,6 +492,30 @@ output:
 If you want to contribute a theme to **xaringan**, please read [this blog post](https://yihui.name/en/2017/10/xaringan-themes).
 
 ---
+class: duke-orange
+# Figure Captions
+
+<figure>
+  <img src="https://c1.staticflickr.com/5/4095/4735322270_29f2a170bb_n.jpg">
+    <figcaption> Image Credit:  
+      <a href="https://www.flickr.com/photos/wordridden/4735322270/in/photolist-8drLkq-646eKc-nG7uhG-quFpgc-4ucjnx-fe82eN-dYBniL-dYvFA4-9Cf4eR-6EGeNs-6HTKQj-65AZMK-fWBnJR-7xRE6a-6hXAvM-piV5xr-89EMot-6Ea5Ks-dPGTJM-dxKznu-6PLmRW-3YRkU8-5iq1tD-fmHnyr-iiLdJL-e5r9bR-5fAPht-8arifu-oBFJHP-fHytwE-7m3YaS-vKsn9-cMyqho-cNg979-gMG6Ng-6ox1FA-2MHsz8-c9LomS-bq7wvo-nt5ipG-rZ5GFD-duEHPx-pgTp2N-8mzmRJ-67XBkZ-ewrn88-b39pr2-6vRoKp-6mZfyi-6DxVuk">Salad Onions</a> by Jessica Spengler 
+    </figcaption>
+</figure>
+
+.justify-left[
+``` html
+<figure>
+  <img src="foo.png">
+    <figcaption> Image Credit: foo text here </figcaption>
+</figure>
+
+# Must declare figure-captions in the YAML header
+# Must use HTML instead of RMarkdown
+
+```
+]
+
+---
 exclude: false
 class: center, middle
 background-image: url(https://blogs.library.duke.edu/magazine/files/2010/12/duke-university-libraries-logo.jpg)
@@ -482,7 +523,7 @@ background-image: url(https://blogs.library.duke.edu/magazine/files/2010/12/duke
 <!-- https://blogs.library.duke.edu/magazine/files/2010/12/duke-university-libraries-logo.jpg -->
 <!-- http://library.duke.edu/data/sites/default/files/datagis/images/data_gis_logo.png -->
 
-<!-- some text goes here  -->
+<!-- HTML comment can go here  -->
   
 ???
 
@@ -491,20 +532,11 @@ use 'p' to toggle the presenter mode or '?' or 'h' to toggle the help / key-shor
 
 Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Duke_University_logo.svg)
 
----
-
-# Some more xaringan documentation
-
-1. [remark.js documentation](https://remarkjs.com) library;
-
-1. [Xaringan documentation](https://slides.yihui.name/xaringan/)
-
-
 
 ---
 class: inverse, middle, center
 
-# Using xaringan
+# More xaringan Documentation
 
 ---
 
@@ -597,20 +629,11 @@ knitr::kable(head(iris), format = 'html')
 ```
 
 ---
-# Kable HTML Table info
-
-[Documentation](https://cran.r-project.org/web/packages/kableExtra/vignettes/awesome_table_in_html.html) on HTML tables via `library(kableExtra)` 
-
-Another example on next page...
-
----
-
-# kable table
+### more HTML (kable) table
 ```{r include=FALSE}
 library(magrittr)
 library(kableExtra)
 ```
-
 
 ```{r include=FALSE}
 text_tbl <- data.frame(
@@ -631,6 +654,11 @@ kable(text_tbl, "html") %>%
   column_spec(1, background = "white", color = "black")
 ```
 
+### Kable HTML Documentation
+
+[Documentation](https://cran.r-project.org/web/packages/kableExtra/vignettes/awesome_table_in_html.html) for HTML (kable) tables via the `library(kableExtra)` package
+
+
 ---
 
 # HTML Widgets
@@ -649,12 +677,6 @@ DT::datatable(
   fillContainer = FALSE, options = list(pageLength = 8)
 )
 ```
-
----
-
-# Increments, Layouts and Templates
-
-I think the term "template" is ambiguous here.  You can follow the documentation.  Just know, there are R Markdown templates and then there are Remark.js templates.  Look at the next link for the definition of the Remark.js templates.  [Incremental slides documentation](https://slides.yihui.name/xaringan/incremental.html).
 
 ---
 
@@ -738,6 +760,23 @@ ggplot(mtcars) +
   geom_point() +   #<<
   geom_smooth()    #<<
 ```
+
+---
+
+# Selected xaringan documentation links
+
+1. [xaringan documentation](https://slides.yihui.name/xaringan/)
+
+    - [xarigan wiki](https://github.com/yihui/xaringan/wiki)
+
+1. [hegge CSS](http://biostatistics.dk/presentations/xaringan/ghoul.html)
+
+1. [incrementing slides, layouts, template, place holders](https://slides.yihui.name/xaringan/incremental.html)
+
+1. [remark.js documentation](https://remarkjs.com) library;
+
+
+
 
 ---
 
