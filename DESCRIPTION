@@ -1,5 +1,5 @@
 Package: dukeslides
-Version: 0.0.0.9900
+Version: 0.1.0
 Title: Slides template for Duke University
 Description: Xaringan template with Duke University Branding
 Authors@R: person("John", "Little", email = "John.Little@Duke.edu", role = c("aut", "cre"))
@@ -14,5 +14,5 @@ BugReports: https://github.com/libjohn/dukeslides/issues
 Imports:
     xaringan,
     kableExtra
-Remotes:  
+Remotes: 
     yihui/xaringan
