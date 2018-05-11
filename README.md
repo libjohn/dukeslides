@@ -30,7 +30,7 @@ In RStudio...
 Documentation
 -------------
 
--   [dukeslides](https://johnlittle.info/dukeslides/)
+-   [dukeslides](https://johnlittle.info/dukeslides/slides/)
 
 Bug Reports
 -----------
