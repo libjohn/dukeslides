@@ -1,0 +1,78 @@
+---
+title: "Link Documentation to blogdown Static Directory"
+---
+
+**README**: This process needs to be done **everytime**.  It creates a symbolic link from the Rfun website's static directory (blogdown's static directory) to the xaringan slides created here in this package.  Two links are created to directories.  The slides file (skeleton.html) is copied as index.html to the target location.  There's got to be an easier way, but IAGWWI.
+
+
+
+```{r}
+library(fs)
+library(here)
+library(glue)
+```
+
+```{r}
+dir_ls()
+```
+
+## `pwd()`
+```{r}
+here()
+```
+
+## Source dir
+
+```{r}
+source1 <- "inst/rmarkdown/templates/xaringan_duke/skeleton/libs"
+
+source2 <- "inst/rmarkdown/templates/xaringan_duke/skeleton/skeleton_files"
+
+source3 <- "inst/rmarkdown/templates/xaringan_duke/skeleton/skeleton.html"
+
+here(source3)
+```
+
+## Target dir
+
+```{r}
+up_1_dir <- ".."
+dir_blogdown_target <- "blogdown-libjohn" 
+dir_blogdown_static_target <- "static"
+dir_map_docs_target <- "dukeslides"
+
+target_dircopy_location <- glue(up_1_dir,
+                                dir_blogdown_target,
+                                dir_blogdown_static_target,
+                                dir_map_docs_target,
+                                .sep = "/")
+
+#target_dircopy_location
+here(target_dircopy_location)
+```
+
+
+
+## Create Link
+
+This next two chunks create a symbolic link and copy a file, from the source dir to target location (`target_dircopy_location`)
+
+## Make Link / Procedure
+
+To run, **and to avoid** unnecessary **messiness**, append `{r}` to the code chunk below.  Then run the chunk. This need only be done once.
+
+The file copy needs to be **run everytime**.
+
+``` r
+link_create(here(source1),
+            here(target_dircopy_location, "libs"))
+
+link_create(here(source2),
+            here(target_dircopy_location, "slides"))
+```
+
+```{r}
+file_copy(here(source3),
+          here(target_dircopy_location, "index.html"))
+```
+
