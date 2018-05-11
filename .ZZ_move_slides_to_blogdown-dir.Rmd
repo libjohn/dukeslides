@@ -68,7 +68,7 @@ link_create(here(source1),
             here(target_dircopy_location, "libs"))
 
 link_create(here(source2),
-            here(target_dircopy_location, "slides"))
+            here(target_dircopy_location, "skeleton_files"))
 ```
 
 ```{r}
