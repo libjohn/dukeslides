@@ -3,6 +3,8 @@
 dukeslides
 ==========
 
+[![lifecycle](docs/images/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+
 The goal of dukeslides is to provide an *R Markdown* [document template](https://rmarkdown.rstudio.com/developer_document_templates.html) for [xaringan slides](https://slides.yihui.name/xaringan/#1) with [Duke Univesrity branding](https://styleguide.duke.edu/color-palette/)
 
 Installation
@@ -17,8 +19,8 @@ Installation
 devtools::install_github("libjohn/dukeslides")
 ```
 
-Example
--------
+Get Started
+-----------
 
 Create a new R Markdown document from the File menu
 
@@ -27,10 +29,10 @@ In RStudio...
 1.  `New File -> R Markdown -> From Template -> Slide template for Duke University  {dukeslides}`
 2.  Click the `Knit` button to compile the slide into rendered HTML
 
-Documentation
--------------
+Documentation / Tutorials
+-------------------------
 
--   [dukeslides](https://johnlittle.info/dukeslides/slides/)
+-   [dukeslides/slides](https://johnlittle.info/dukeslides/slides/)
 
 Bug Reports
 -----------
