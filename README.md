@@ -38,3 +38,8 @@ Bug Reports
 -----------
 
 <https://github.com/libjohn/dukeslides/issues>
+
+Thumbnail Example
+-----------------
+
+![thumbnail example of slide styles](docs/images/thumbs.png)
