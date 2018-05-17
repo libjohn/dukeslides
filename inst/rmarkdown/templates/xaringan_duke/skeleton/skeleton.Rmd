@@ -797,7 +797,7 @@ You can make **Rfun** with our resources for R and data science analytics.  See 
 ]
 
 .pull-right[.content-box-grey[
-### Duke Univesrity
+### Duke University
 
 **Data & Visualization Services**
 

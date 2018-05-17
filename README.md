@@ -5,7 +5,7 @@ dukeslides
 
 [![lifecycle](docs/images/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
 
-dukeslides is an *R Markdown* [document template](https://rmarkdown.rstudio.com/developer_document_templates.html) for [xaringan slides](https://slides.yihui.name/xaringan/#1) that integrates the [Duke Univesrity color palette](https://styleguide.duke.edu/color-palette/)
+dukeslides is an *R Markdown* [document template](https://rmarkdown.rstudio.com/developer_document_templates.html) for [xaringan slides](https://slides.yihui.name/xaringan/#1) that integrates the [Duke University color palette](https://styleguide.duke.edu/color-palette/)
 
 Installation
 ------------
