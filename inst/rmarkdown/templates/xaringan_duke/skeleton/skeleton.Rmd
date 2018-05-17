@@ -28,7 +28,7 @@ class: center, middle
 ### /ʃæ.'riŋ.ɡæn/
 
 .justify-left[
-This example slide deck extends the excellent collaborative work of the xaringan and Remark.js slide tools.  With this template, slide authors can compose xaringan slides via [R Markdown](https://rmarkdown.rstudio.com/) and present with [Duke University branding](https://styleguide.duke.edu/color-palette/).
+This [`dukeslides`](https://johnlittle.info/dukeslides/) example slide deck extends the excellent collaborative work of the xaringan and Remark.js slide tools.  With this template, slide authors can compose xaringan slides via [R Markdown](https://rmarkdown.rstudio.com/) and present with [Duke University branding](https://styleguide.duke.edu/color-palette/).
 
 [Yihui Xie](https://yihui.name/) provides wonderful [technical documentation](https://slides.yihui.name/xaringan/) and a [wiki](https://github.com/yihui/xaringan/wiki) for the [xaringan package](https://github.com/yihui/xaringan). Some of his documentation is repeated here.  
 
