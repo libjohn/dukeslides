@@ -1,3 +1,7 @@
+# DEPRECATED
+
+refer to the [README](readme.md) for more information
+
 dukeslides is an *R Markdown* [document template](https://rmarkdown.rstudio.com/developer_document_templates.html) for [xaringan slides](https://slides.yihui.name/xaringan/#1) that integrates the [Duke University color palette](https://styleguide.duke.edu/color-palette/)
 
 ## Installation
