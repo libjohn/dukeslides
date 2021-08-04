@@ -1,45 +1,20 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-dukeslides
-==========
 
-[![lifecycle](docs/images/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+# dukeslides
 
-dukeslides is an *R Markdown* [document template](https://rmarkdown.rstudio.com/developer_document_templates.html) for [xaringan slides](https://slides.yihui.name/xaringan/#1) that integrates the [Duke University color palette](https://styleguide.duke.edu/color-palette/)
+![lifecycle:
+deprecated](https://img.shields.io/badge/lifecycle-deprecated-orange "Lifecycle: deprecated")
+There will be no further development of `library(dukeslides)`. This
+package has been deprecated in favor of using the following teachniques
+and packages:
 
-Installation
-------------
+-   [`library(xaringan)`](https://github.com/yihui/xaringan)
+-   [`library(xaringanthemer)`](https://github.com/gadenbuie/xaringanthemer)
+-   [`library(xaringanExtra)`](https://github.com/gadenbuie/xaringanExtra)
+-   [story Remark Themes](https://story.xaprb.com/slides/adirondack/#2)
 
-`dukeslides` has not been submitted to [CRAN](https://CRAN.R-project.org) (, yet...)
+**Learn More**:
+<https://rfun.library.duke.edu/portfolio/slides_workshop/>
 
-**Install** the *development version* from [GitHub](https://github.com/) with:
-
-``` r
-# install.packages("devtools")
-devtools::install_github("libjohn/dukeslides")
-```
-
-Get Started
------------
-
-Create a new R Markdown document from the File menu
-
-In RStudio...
-
-1.  `New File -> R Markdown -> From Template -> Slide template for Duke University  {dukeslides}`
-2.  Click the `Knit` button to compile the slide into rendered HTML
-
-Documentation / Tutorials
--------------------------
-
--   [dukeslides/slides](https://johnlittle.info/dukeslides/slides/)
-
-Bug Reports
------------
-
-<https://github.com/libjohn/dukeslides/issues>
-
-Thumbnail Example
------------------
-
-![thumbnail example of slide styles](docs/images/thumbs.png)
+[old README](readme_old.md)
