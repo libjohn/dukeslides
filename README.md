@@ -9,11 +9,7 @@ There will be no further development of `library(dukeslides)`. This
 package has been deprecated in favor of using the following teachniques
 and packages:
 
--   [`library(xaringan)`](https://github.com/yihui/xaringan)
--   [`library(xaringanthemer)`](https://github.com/gadenbuie/xaringanthemer)
--   [`library(xaringanExtra)`](https://github.com/gadenbuie/xaringanExtra)
-    & Tachyons
--   [story Remark Themes](https://story.xaprb.com/slides/adirondack/#2)
+-   [Quarto revealJS presentations](https://quarto.org/docs/presentations/revealjs/).
 
 ## Try this INSTEAD. An Example ![LifeCycle: Superseded by](https://img.shields.io/badge/lifecycle-superseded%20by-brightgreen "LifeCycle: Superseded by")
 
