@@ -11,10 +11,10 @@ and packages:
 
 -   [Quarto revealJS presentations](https://quarto.org/docs/presentations/revealjs/).
 
-## Try this INSTEAD. An Example ![LifeCycle: Superseded by](https://img.shields.io/badge/lifecycle-superseded%20by-brightgreen "LifeCycle: Superseded by")
+## old stuff
 
 Again, **`dukeslides` has been deprecated** and **ALSO superseded by**
-newer techniques. An [example slide
+newer techniques. An [OLD example slide
 deck](https://people.duke.edu/~jrl/dashboard_wednesday/#1) using the
 above helper packages shows an end result. AND here is the [R Markdown
 code used to generated the
